@@ -1,0 +1,1200 @@
+/******************body[templet='ys']    style ************************/
+
+@font-face {
+    font-family: 'icon';
+    src: url('fonts/icon.eot?600vhu');
+    src: url('fonts/icon.eot?600vhu#iefix') format('embedded-opentype'), url('fonts/icon.ttf?600vhu') format('truetype'), url('fonts/icon.woff?600vhu') format('woff'), url('fonts/icon.svg?600vhu#icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 以上字体图标文件链接在同目录fonts文件夹，以下字体图标由字体图标网站生成本地字体图标与网络无关 */
+
+[class^="i-"],
+[class*=" i-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.i-icon_classinformation:before {
+    content: "\e900";
+}
+
+.i-icon_Versionmanagement:before {
+    content: "\e901";
+}
+
+.i-icon_roominformation:before {
+    content: "\e902";
+}
+
+.i-icon_classesmanagement:before {
+    content: "\e903";
+}
+
+.i-icon_Courseselection:before {
+    content: "\e904";
+}
+
+.i-icon_Documentmanagement:before {
+    content: "\e905";
+}
+
+.i-icon_Logisticsmanagement:before {
+    content: "\e906";
+}
+
+.i-icon_Backgroundmanagement:before {
+    content: "\e907";
+}
+
+.i-icon_Meeting:before {
+    content: "\e908";
+}
+
+.i-icon_Basicdata:before {
+    content: "\e909";
+}
+
+.i-icon_Homeschool:before {
+    content: "\e90a";
+}
+
+.i-icon_role:before {
+    content: "\e90b";
+}
+
+.i-icon_Teacherdevelopment:before {
+    content: "\e90c";
+}
+
+.i-icon_Educationaladministration:before {
+    content: "\e90d";
+}
+
+.i-icon_Educationopens:before {
+    content: "\e90e";
+}
+
+.i-icon_staff:before {
+    content: "\e90f";
+}
+
+.i-icon_attendance:before {
+    content: "\e910";
+}
+
+.i-icon_Courseinformation:before {
+    content: "\e911";
+}
+
+.i-icon_process:before {
+    content: "\e912";
+}
+
+.i-icon_portal:before {
+    content: "\e913";
+}
+
+.i-icon_arranging:before {
+    content: "\e914";
+}
+
+.i-icon_task:before {
+    content: "\e915";
+}
+
+.i-icon_schedule:before {
+    content: "\e916";
+}
+
+.i-icon_dictionary:before {
+    content: "\e917";
+}
+
+.i-icon_substitute:before {
+    content: "\e919";
+}
+
+.i-icon_document:before {
+    content: "\e91a";
+}
+
+.i-icon_Systemmanagement:before {
+    content: "\e91b";
+}
+
+.i-icon_reception:before {
+    content: "\e91c";
+}
+
+.i-icon_security:before {
+    content: "\e91d";
+}
+
+.i-icon_Campusinformation:before {
+    content: "\e91e";
+}
+
+.i-icon_synergy:before {
+    content: "\e91f";
+}
+
+.i-icon_informationrelease:before {
+    content: "\e920";
+}
+
+.i-icon_academicyear:before {
+    content: "\e921";
+}
+
+.i-icon_semester:before {
+    content: "\e922";
+}
+
+.i-icon_growth:before {
+    content: "\e923";
+}
+
+.i-icon_Studentinformation:before {
+    content: "\e924";
+}
+
+.i-icon_choolopening:before {
+    content: "\e925";
+}
+
+.i-icon_Usermanagement:before {
+    content: "\e927";
+}
+
+.i-icon_Intelligentmarking:before {
+    content: "\e929";
+}
+
+.i-icon_comprehensive:before {
+    content: "\e92a";
+}
+
+.i-icon_Goclass:before {
+    content: "\e92b";
+}
+
+.i-icon_Organizeinformation:before {
+    content: "\e92c";
+}
+
+.i-icon_assessment:before {
+    content: "\e92d";
+}
+
+.i-budget:before {
+    content: "\e918";
+}
+
+.i-income:before {
+    content: "\e926";
+}
+
+.i-allowance:before {
+    content: "\e928";
+}
+
+.i-reimbursement:before {
+    content: "\e92e";
+}
+
+.i-wage:before {
+    content: "\e92f";
+}
+
+/* 以上侧边栏字体图标请勿删勿动 */
+
+/* 此为18.12.1更新图标请勿删勿动图标网站为阿里图标库*/
+
+/* 18.12.1更新排课任务 */
+
+/* 19.01.22更新学生老师考勤 */
+
+/* 19.2.18更新电子班牌 */
+/* 19.2.26更新作息时间和校区信息 */
+/* 19.2.27更新学校授权应用 */
+/* fonts/alifont/ */
+@font-face {
+    font-family: "iconfont";
+    src: url('fonts/alifont/iconfont.eot?t=1551257896907');
+    /* IE9 */
+    src: url('fonts/alifont/iconfont.eot?t=1551257896907#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+        url('fonts/alifont/iconfont.woff?t=1551257896907') format('woff'),
+        url('fonts/alifont/iconfont.ttf?t=1551257896907') format('truetype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+        url('fonts/alifont/iconfont.svg?t=1551257896907#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zititubiao_xiaomenkaoqin:before {
+    font-family: "iconfont" !important;
+    content: "\e603";
+}
+
+.icon-zititubiao_yingjianguanli:before {
+    font-family: "iconfont" !important;
+    content: "\e604";
+}
+
+.icon-zititubiao_xiaomenkaoqin1:before {
+    font-family: "iconfont" !important;
+    content: "\e605";
+}
+
+.icon-hangzhengbantiaoke:before {
+    font-family: "iconfont" !important;
+    content: "\e606";
+}
+
+.icon-gongzuoliangtongji:before {
+    font-family: "iconfont" !important;
+    content: "\e607";
+}
+
+.icon-jiaoxuebanxuesheng:before {
+    font-family: "iconfont" !important;
+    content: "\e608";
+}
+
+.icon-hangzhengbanpaike:before {
+    font-family: "iconfont" !important;
+    content: "\e609";
+}
+
+.icon-gaokao:before {
+    font-family: "iconfont" !important;
+    content: "\e60a";
+}
+
+.icon-jiaoshidaike:before {
+    font-family: "iconfont" !important;
+    content: "\e60b";
+}
+
+.icon-meizhoukebiao:before {
+    font-family: "iconfont" !important;
+    content: "\e60c";
+}
+
+.icon-linshijiaqibuke:before {
+    font-family: "iconfont" !important;
+    content: "\e60d";
+}
+
+.icon-shangkechaxun:before {
+    font-family: "iconfont" !important;
+    content: "\e60e";
+}
+
+.icon-paijiaoshi:before {
+    font-family: "iconfont" !important;
+    content: "\e60f";
+}
+
+.icon-wodekebiao:before {
+    font-family: "iconfont" !important;
+    content: "\e610";
+}
+
+.icon-xiaobenpaike:before {
+    font-family: "iconfont" !important;
+    content: "\e611";
+}
+
+.icon-zoubanpaike:before {
+    font-family: "iconfont" !important;
+    content: "\e612";
+}
+
+.icon-xueqikebiao:before {
+    font-family: "iconfont" !important;
+    content: "\e613";
+}
+
+.icon-zoubanxuanke:before {
+    font-family: "iconfont" !important;
+    content: "\e614";
+}
+
+.icon-duanxinqunfa_duanxinqunfa:before {
+    font-family: "iconfont" !important;
+    content: "\e615";
+}
+
+.icon-jiaoshikebiao:before {
+    font-family: "iconfont" !important;
+    content: "\e616";
+}
+
+.icon-hangzhengbankebiao:before {
+    font-family: "iconfont" !important;
+    content: "\e617";
+}
+
+.icon-xueshengchengchangdangan:before {
+    font-family: "iconfont" !important;
+    content: "\e618";
+}
+
+.icon-xueshengkebiao:before {
+    font-family: "iconfont" !important;
+    content: "\e619";
+}
+
+.icon-kebiaochaxun:before {
+    font-family: "iconfont" !important;
+    content: "\e61a";
+}
+
+.icon-laoshikebiao:before {
+    font-family: "iconfont" !important;
+    content: "\e61b";
+}
+
+.icon-zongkebiao:before {
+    font-family: "iconfont" !important;
+    content: "\e61c";
+}
+
+.icon-zoubankebiao:before {
+    font-family: "iconfont" !important;
+    content: "\e61d";
+}
+
+.icon-chengchangfazhanpingce:before {
+    font-family: "iconfont" !important;
+    content: "\e61e";
+}
+
+.icon-xuekeqingxiangpingce:before {
+    font-family: "iconfont" !important;
+    content: "\e61f";
+}
+
+.icon-pingcebaogao:before {
+    font-family: "iconfont" !important;
+    content: "\e620";
+}
+
+.icon-zhuanyeqingxiangpingce:before {
+    font-family: "iconfont" !important;
+    content: "\e621";
+}
+
+.icon-xueshengpingce:before {
+    font-family: "iconfont" !important;
+    content: "\e622";
+}
+
+.icon-icon_cepingdingdan:before {
+    font-family: "iconfont" !important;
+    content: "\e623";
+}
+
+.icon-icon_caiwuguanli:before {
+    font-family: "iconfont" !important;
+    content: "\e624";
+}
+
+.icon-icon_denglurizhi:before {
+    font-family: "iconfont" !important;
+    content: "\e625";
+}
+
+.icon-icon_jichushuju:before {
+    font-family: "iconfont" !important;
+    content: "\e626";
+}
+
+.icon-icon_houqinguanli:before {
+    font-family: "iconfont" !important;
+    content: "\e627";
+}
+
+.icon-icon_paixuanke:before {
+    font-family: "iconfont" !important;
+    content: "\e628";
+}
+
+.icon-icon_xietongbangong:before {
+    font-family: "iconfont" !important;
+    content: "\e629";
+}
+
+.icon-icon_laoshikaoqin:before {
+    font-family: "iconfont" !important;
+    content: "\e62a";
+}
+
+.icon-icon_xueshengkaoqin:before {
+    font-family: "iconfont" !important;
+    content: "\e62b";
+}
+
+.icon-icon_dianzibanpai:before {
+    font-family: "iconfont" !important;
+    content: "\e62c";
+}
+
+.icon-icon_yitiguanli:before {
+    font-family: "iconfont" !important;
+    content: "\e62d";
+}
+
+.icon-icon_zuoxishijian:before {
+    font-family: "iconfont" !important;
+    content: "\e62e";
+}
+
+.icon-icon_xiaoquxinxi:before {
+    font-family: "iconfont" !important;
+    content: "\e62f";
+}
+
+.icon-icon_xuexiaoyingyongshouquan:before {
+    font-family: "iconfont" !important;
+    content: "\e630";
+}
+
+/* 以上19.1.3更新图标请勿删勿动*/
+
+[templet='ys'] #content-container {
+    padding-top: 120px;
+    background-color: #eef5f9;
+}
+
+body[templet='ys'] {
+    font-family: Microsoft YaHei, Microsoft Yahei, WenQuanYi Micro Hei, Source Han Sans CN;
+    font-size: 12px;
+}
+
+/**
+    2019.3.16 教师发展图标,资产管理
+    2019.5.20 加入合同管理图标
+    2019. 5.29 教务管理(明博图标)
+*/
+@font-face {
+    font-family: "iconfont";
+    src: url('tdIconFont/iconfont.eot?t=1558334665029');
+    /* IE9 */
+    src: url('tdIconFont/iconfont.eot?t=1558334665029#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+        url('tdIconFont/iconfont.woff?t=1558334665029') format('woff'),
+        url('tdIconFont/iconfont.ttf?t=1558334665029') format('truetype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+        url('tdIconFont/iconfont.svg?t=1558334665029#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_jiaoshidangan:before {
+    font-family: "iconfont" !important;
+    content: "\e602";
+}
+
+.icon-icon_jiaoshifazhan:before {
+    font-family: "iconfont" !important;
+    content: "\e604";
+}
+
+.icon-icon_houqinguanli-:before {
+    font-family: "iconfont" !important;
+    content: "\e605";
+}
+
+.icon-icon_zichanguanli:before {
+    font-family: "iconfont" !important;
+    content: "\e608";
+}
+
+.icon-icon_hetongguanli:before {
+    font-family: "iconfont" !important;
+    content: "\e60c";
+}
+
+.icon-icon_fenxuechaxun1:before {
+    font-family: "iconfont" !important;
+    content: "\e611";
+}
+
+.icon-icon_keshiguanli1:before {
+    content: "\e613";
+    font-family: "iconfont" !important;
+}
+
+.icon-icon_wodekecheng1:before {
+    content: "\e614";
+    font-family: "iconfont" !important;
+}
+
+.icon-icon_kechengshenhe1:before {
+    content: "\e615";
+    font-family: "iconfont" !important;
+}
+
+.icon-icon_xuekefenceng1:before {
+    content: "\e616";
+    font-family: "iconfont" !important;
+}
+
+.icon-icon_hangzhengbankecheng1:before {
+    content: "\e617";
+    font-family: "iconfont" !important;
+}
+
+.icon-icon_wodekechengbiao1:before {
+    content: "\e618";
+    font-family: "iconfont" !important;
+}
+
+.icon-icon_xuekefenlei1:before {
+    content: "\e619";
+    font-family: "iconfont" !important;
+}
+
+.icon-icon_taocanguanli1:before {
+    content: "\e61a";
+    font-family: "iconfont" !important;
+}
+
+.icon-icon_gaokaoxuanke:before {
+    content: "\e60a";
+    font-family: "iconfont" !important;
+}
+
+/* 18.8.20添加，筛选栏控制样式，包括下拉框宽度固定200，边框颜色固定，左外边距下外边距20px,高度30px,标签长60 */
+
+.sx-r20px {
+    margin-right: 20px !important;
+}
+
+.sx-b5px {
+    margin-bottom: 20px !important;
+}
+
+.sx-t20px {
+    margin-top: 20px !important;
+}
+
+.sx-t10px {
+    margin-top: 10px !important;
+}
+
+.sx-w200px {
+    width: 200px !important;
+}
+
+.sx-b5px-r20px {
+    margin-right: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.sx-overflowHidden {
+    overflow: hidden;
+}
+
+.sx-overflow {
+    overflow: hidden;
+}
+
+.sx-txtcenter {
+    text-align: center;
+}
+
+.sx-h30px {
+    height: 30px !important;
+}
+
+select.sx-w200px,
+input.sx-w200px {
+    border: 1px solid #cfdae5 !important;
+    box-sizing: border-box;
+    height: 30px;
+    width: 200px;
+}
+
+.spanw60px {
+    display: inline-block;
+    width: 60px;
+}
+
+.sx-star:before {
+    content: "\002a";
+    color: red;
+    padding-right: 5px;
+}
+
+.sx-w100 {
+    width: 100%;
+}
+
+#container .table th {
+    border: 1px solid #e0e9f2;
+}
+
+#container .table tr:hover {
+    background-color: #cde9fc;
+}
+
+#container .table td {
+    border: 1px solid #e0e9f2
+}
+
+.bootstrap-table .table {
+    border: 1px solid #e0e9f2;
+}
+
+.fixed-table-container {
+    border: 0.5px solid #e0e9f2 !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #eff4f7;
+}
+
+/* 18.8.20添加，筛选栏控制样式 */
+
+/***********nav css 更改    ************/
+
+[templet='ys'] #demo-set-btn {
+    padding: 5px;
+    left: 88%;
+    margin-top: 15px;
+}
+
+[templet='ys'] .navbar-header i {
+    font-size: 10px;
+    margin: 5px;
+}
+
+[templet='ys'] .navbar-brand {
+    height: 60px;
+    background-color: #4c98f7;
+}
+
+.navbar-header:before {
+    width: 0;
+}
+
+[templet='ys'] .brand-title,
+.brand-icon {
+    line-height: 60px;
+}
+
+#container:not(.mainnav-sm) #mainnav-menu-wrap>.nano>.nano-content {
+    padding-top: 0px !important;
+}
+
+.navbar-top-links:last-child>li {
+    padding: 0px;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+#aside-menu-btn {
+    padding: 0 10px;
+}
+
+[templet='ys'] .brand-icon {
+    width: 60px;
+    height: 60px;
+}
+
+[templet='ys'] .brand-logo {
+    /* width: 130px; */
+    height: 36px;
+    margin-left: 30px;
+}
+
+[templet='ys'] .badge-header {
+    right: 18px;
+    top: 2.5em;
+}
+
+[templet='ys'] .username {
+    color: #fff;
+    font-size: 14px;
+}
+
+[templet='ys'] .topNav>li.active a {
+    /* background-color: #2e7bdb; */
+    background-color: #367bd6;
+    color: #fff;
+}
+
+[templet='ys'] .topNav>li>a:hover,
+[templet='ys'] .navbar-top-links #topBell.open,
+#dropdown-user.open>a {
+    /* background-color: #2e7bdb !important; */
+    background-color: #367bd6 !important;
+}
+
+[templet='ys'] .navbar-top-links #topBell>a:hover,
+[templet='ys'] .navbar-top-links #dropdown-user>a:hover {
+    /* background-color: #2e7bdb !important; */
+    background-color: #367bd6 !important;
+}
+
+[templet='ys'] .navbar-top-links:last-child>li {
+    border-left: none;
+    border-right: none;
+}
+
+[templet='ys'] .navbar-brand {
+    background-color: #002557;
+}
+
+nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    /* background-color: #2e7bdb; */
+    background-color: #367bd6;
+}
+
+[templet='ys'] .navbar-top-links>li>a>i {
+    font-size: 2em;
+    color: #fff;
+}
+
+.topNav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+    font-size: 17px;
+    color: #fff;
+}
+
+[templet='ys'] .navbar-top-links #topBell>a>i {
+    color: #fff;
+}
+
+[templet='ys'] .navbar-top-links>li>a {
+    height: 60px;
+    padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+
+    /* //页脚 */
+    .pagination>.active>a {
+        z-index: 1;
+    }
+
+    #footer {
+        /* z-index: 5;  */
+        padding: 0px;
+        border-top: none;
+        /* bottom: 26px !important; */
+        height: 48px !important;
+        padding-left: 0px !important;
+        /* position: absolute !important; */
+    }
+
+    #footer .footer-3 {
+        padding: 16px 0 16px 0;
+        border-top: 1px solid #b9bdc0;
+        line-height: 14px;
+        font-size: 14px !important;
+        background-color: #eef5f9 !important;
+        color: #88929b;
+    }
+
+    #footer .footer-3 p {
+        margin-bottom: 0px !important;
+    }
+
+    #footer .footer-3 p span {
+        position: absolute;
+        left: 255px;
+    }
+
+    /* 表格分页下拉框 */
+    .fixed-table-pagination .dropdown-menu {
+        border: 1px solid #367bd6;
+        min-width: 53px;
+        border-top: none;
+        text-align: center;
+    }
+
+    .fixed-table-pagination .dropdown-menu>li>a {
+        color: #384a58;
+        background-color: #fff;
+    }
+
+    .fixed-table-pagination .dropdown-menu:not(.head-list)>li>a:hover {
+        background-color: #cde9fc;
+        color: #2ca4f2
+    }
+
+    .fixed-table-pagination .btn-group.open .dropdown-toggle.btn.btn-active-default {
+        background-color: #fff;
+        border-color: #367bd6;
+        width: 5px;
+        color: #384a58
+    }
+
+    .fixed-table-pagination .dropdown-toggle {
+        width: 53px;
+    }
+
+    .fixed-table-pagination .btn-default:hover,
+    .fixed-table-pagination .btn-default:active,
+    .fixed-table-pagination .btn-default.active,
+    .fixed-table-pagination .open>.dropdown-toggle.btn-default {
+        background-color: #fff;
+        border-color: #367bd6;
+        width: 53px;
+        color: #384a58
+    }
+
+    [templet='ys'] .navbar-content {
+        margin-left: 240px;
+        background-color: #002557;
+    }
+
+    [templet='ys'] #container.mainnav-in .navbar-brand,
+    [templet='ys'] #container.mainnav-lg .navbar-brand,
+    [templet='ys'] #container.mainnav-in .brand-title,
+    [templet='ys'] #container.mainnav-lg .brand-title {
+        width: 240px;
+    }
+
+    @media (min-width: 768px) {
+        [templet='ys'] #container.mainnav-sm .brand-icon {
+            width: 50px;
+            height: 60px;
+            margin: 0 auto;
+            transform: translateY(0px);
+        }
+
+        /***********nav css 更改    end************/
+        /***********左侧导航栏 css 更改    ************/
+        [templet='ys'] #mainnav-container {
+            width: 240px;
+            padding-top: 60px;
+        }
+
+        /* 第一个li的样式 ,反正这一串是新原型要求改的样式*/
+        /* //一级 */
+        [templet='ys'] #mainnav .list-header a {
+            padding-left: 15px;
+        }
+
+        [templet='ys'] #mainnav .list-header span::before {
+            /* font-weight: 300; */
+            color: #3f6085;
+            padding-right: 5px;
+            top: 3px;
+            position: relative;
+            font-size: 20px;
+        }
+
+        [templet='ys'] #mainnav .list-daohang {
+            font-weight: bolder;
+            color: #384a58;
+            font-size: 20px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            font-family: Microsoft YaHei, Microsoft Yahei, WenQuanYi Micro Hei, Source Han Sans CN;
+        }
+
+        [templet='ys'] #mainnav .list-daohang a {
+            height: 100%;
+            padding: 0;
+        }
+
+        [templet='ys'] #mainnav .list-daohang span::before {
+            font-weight: 600;
+            color: #747e88;
+            margin-right: 10px;
+            font-size: 24px;
+        }
+
+        /* 二级 */
+        [templet='ys'] #mainnav .first a {
+            padding-left: 45px;
+        }
+
+        [templet='ys'] #mainnav .mainnav-profile .list-group-item:hover {
+            background-color: #FFF;
+            /* color: #00bcd4; */
+        }
+
+        [templet='ys'] #mainnav-menu a strong {
+            font-weight: 300;
+        }
+
+        [templet='ys'] #mainnav-menu>li>a:hover {
+            background-color: #ecf0f5;
+            /*color: #fff;*/
+        }
+
+        /* 三级 */
+        [templet='ys'] #mainnav .first ul li a {
+            padding-left: 72px;
+        }
+
+        /* 左侧导航栏子集字体颜色 */
+        [templet='ys'] #mainnav .first ul li.hover>a {
+            color: #367bd6;
+        }
+
+        [templet='ys'] #mainnav .first ul li.hovers>a {
+            color: #367bd6;
+        }
+
+        [templet='ys'] #mainnav .hover {
+            background: #ecf6fd;
+            -webkit-box-shadow: inset 4px 0 0 0 #367bd6;
+            box-shadow: inset 4px 0 0 0 #367bd6;
+            color: #367bd6 !important;
+            font-weight: 600;
+        }
+
+        /* 导航栏字体样式 */
+        [templet='ys'] #mainnav li.hover a {
+            color: #367bd6 !important;
+        }
+
+        [templet='ys'] #mainnav .hovers {
+            background: #ecf6fd;
+            -webkit-box-shadow: inset 4px 0 0 0 #367bd6;
+            box-shadow: inset 4px 0 0 0 #367bd6;
+            color: #367bd6 !important;
+            font-weight: 600;
+        }
+
+        /* [templet='ys'] #mainnav-menu ul.collapse li:hover a { */
+        /* background: #fff; */
+        /* -webkit-box-shadow: inset 4px 0 0 0 #367bd6;
+            box-shadow: inset 4px 0 0 0 #367bd6; */
+        /* } */
+        /* 外面的li */
+        [templet='ys'] #mainnav .first a:hover {
+            color: #367bd6;
+            font-weight: 600;
+            -webkit-box-shadow: inset 4px 0 0 0 #367bd6;
+            -moz-box-shadow: inset 4px 0 0 0 #367bd6;
+            box-shadow: inset 4px 0 0 0 #367bd6;
+            transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            transition: all .3s;
+            transition-timing-function: linear;
+        }
+
+        [templet='ys'] #mainnav #mainnav-menu .first a:hover strong {
+            font-weight: 600;
+        }
+
+        /* [templet='ys'] #mainnav .collapse>li:hover {
+            background-color: #ecf6fd;
+            有多级的时候样式层级没有写准确，导致全部hover时会高亮。修改后样式如下
+        } */
+        [templet='ys'] #mainnav .collapse>li.active>ul.collapse.in>li:hover {
+            background-color: #ecf6fd;
+        }
+
+        [templet='ys'] #mainnav .first .active-link {
+            background: #ecf6fd;
+            -webkit-box-shadow: inset 4px 0 0 0 #367bd6;
+            box-shadow: inset 4px 0 0 0 #367bd6;
+        }
+
+        [templet='ys'] #mainnav .firsts .active-link {
+            background: #ecf6fd;
+            -webkit-box-shadow: inset 4px 0 0 0 #367bd6;
+            box-shadow: inset 4px 0 0 0 #367bd6;
+        }
+
+        [templet='ys'] #mainnav .first .active-link a {
+            color: #367bd6;
+            font-weight: 600;
+        }
+
+        [templet='ys'] #mainnav .firsts .active-link a {
+            color: #367bd6;
+            font-weight: 600;
+        }
+
+        [templet='ys'] #mainnav .first a.hover strong {
+            font-weight: 600;
+        }
+
+        [templet='ys'] #mainnav .firsts a.hover strong {
+            font-weight: 600;
+        }
+
+        [templet='ys'] #mainnav .first a.active {
+            background: #ecf6fd;
+            -webkit-box-shadow: inset 4px 0 0 0 #367bd6;
+            box-shadow: inset 4px 0 0 0 #367bd6;
+            color: #367bd6;
+        }
+
+        [templet='ys'] #mainnav .firsts a.active {
+            background: #ecf6fd;
+            -webkit-box-shadow: inset 4px 0 0 0 #367bd6;
+            box-shadow: inset 4px 0 0 0 #367bd6;
+        }
+
+        [templet='ys'] #mainnav .first a.active strong {
+            font-weight: 600;
+        }
+    }
+
+    /* 滚动条颜色覆盖 */
+    [templet='ys'] #mainnav .nano>.nano-pane>.nano-slider {
+        background-color: #367bd6
+    }
+
+    /***********左侧导航栏 css 更改    end************/
+    /***********右侧导航栏 css 更改    ************/
+    @media (min-width: 1024px) {
+        [templet='ys'] #container.aside-in #aside {
+            padding-top: 60px;
+        }
+    }
+
+    [templet='ys'] #mainnav-menu i.iconfont {
+        font-size: 1.5em;
+        /* display: inline-block;
+            height: 100%;
+            width: 10%;
+            margin: auto 0; */
+    }
+
+    /***********右侧导航栏 css 更改    end************/
+    /***********屏幕缩小导航条  css 更改    ************/
+    @media (max-width: 760px) {
+        [templet='ys'] #mainnav-container {
+            width: 220px;
+        }
+
+        [templet='ys'] .sys_navbar-header .brand-title span {
+            line-height: 40px;
+        }
+
+        [templet='ys'] .sys_navbar-header .sys_brand-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        [templet='ys'] .sys_navbar-header .sys_logoimg,
+        [templet='ys'] #navbar-container .sys_navbar-header,
+        [templet='ys'] .sys_navbar-header .brand-title {
+            height: 40px;
+        }
+
+        [templet='ys'] .sys_navbar-content .sys_navbar-top-links>li>a {
+            height: 40px;
+            padding: 0 12px;
+            font-size: .8em;
+        }
+    }
+
+    /***********屏幕缩小导航条  css 更改    end************/
+    /***********页面区域 css 更改    ************/
+    @media (min-width: 768px) {
+        [templet='ys'] #content-container {
+            padding-top: 60px;
+        }
+    }
+
+    @media (min-width: 992px) {
+
+        [templet='ys'] #container.mainnav-lg #footer,
+        [templet='ys'] #container.mainnav-lg #content-container {
+            padding-left: 240px;
+        }
+    }
+
+    [templet='ys'] #content-container {
+        font-family: Microsoft YaHei, Microsoft Yahei, WenQuanYi Micro Hei, Source Han Sans CN;
+        font-size: 14px;
+    }
+
+    [templet='ys'] .table td a {
+        margin: 0 6px 0 5px;
+    }
+
+    [templet='ys'] #senior-option-div {
+        border-bottom: 1px solid #E5E5E5;
+        padding: 10px 0 5px 0;
+        margin: 5px 0 15px 0;
+    }
+
+    [templet='ys'] #hide-a {
+        display: none;
+    }
+
+    /*给table添加表格头*/
+    [templet='ys'] .table-title {
+        color: #000000;
+        font-size: 1.4em;
+        font-weight: 600;
+        padding: 8px 10px 8px 10px;
+        height: 45px;
+        border-top: 1px solid #E9E9E9;
+        border-left: 1px solid #E9E9E9;
+        border-right: 1px solid #E9E9E9;
+    }
+
+    [templet='ys'] #page-title,
+    .breadcrumb {
+        background-color: #FFFFFF;
+    }
+
+    [templet='ys'] #page-title {
+        padding: 15px 15px;
+    }
+
+    [templet='ys'] #page-title .page-header {
+        padding: 0;
+        font-size: 1em;
+    }
+
+    [templet='ys'] .breadcrumb {
+        margin: 0px;
+        /* padding: 5px 15px; */
+    }
+}
+
+/******************body[templet='ys']    style   end************************/

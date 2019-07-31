@@ -1,0 +1,1730 @@
+@charset "UTF-8";
+body {
+  padding-top: 70px;
+  font-family: Microsoft Yahei,WenQuanYi Micro Hei,Source Han Sans CN;
+  position: relative;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+#ys_header.navbar {
+  margin-bottom: 0px;
+  border: none;
+}
+
+#ys_header {
+  background-color: #002557;
+}
+
+#ys_header .container .navbar-header .navbar-brand {
+  max-width: 400px;
+  height: 70px !important;
+}
+
+#ys_header .container .navbar-header .navbar-brand img {
+  width: 100%;
+  height: 100%;
+}
+
+#ys_header .container .navbar-nav li {
+  position: relative;
+}
+
+#ys_header .container .navbar-nav li a {
+  font-size: 16px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#ys_header .container .navbar-nav li a:hover {
+  color: #42A5F5;
+}
+
+#ys_header .container .navbar-nav li.active a {
+  background-color: #4c98f7;
+  color: #fff;
+}
+
+#ys_header .container .navbar-nav li .dropdown-QRCodeMenu {
+  padding: 0;
+  list-style: none;
+  min-width: 300px;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: -100%;
+  padding: 15px 0px 5px 0px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px #bbbbbb;
+  display: none;
+}
+
+#ys_header .container .navbar-nav li .dropdown-QRCodeMenu:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 9px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-color: transparent;
+  border-bottom-color: #fff;
+  position: absolute;
+  top: -5%;
+  left: 46%;
+}
+
+#ys_header .container .navbar-nav li .dropdown-QRCodeMenu .Android_content,
+#ys_header .container .navbar-nav li .dropdown-QRCodeMenu .iOS_content {
+  float: left;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+#ys_header .container .navbar-nav li .dropdown-QRCodeMenu .Android_content,
+#ys_header .container .navbar-nav li .dropdown-QRCodeMenu .iOS_content {
+  padding: 0px 20px 0px 23px;
+}
+
+#ys_header .container .navbar-nav li .dropdown-QRCodeMenu .iOS_content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#ys_header .container .navbar-nav li .dropdown-QRCodeMenu .blue_icon {
+  margin-right: 2px;
+  vertical-align: top;
+}
+
+#ys_header .container .navbar-nav li .dropdown-QRCodeMenu .iOS_text,
+#ys_header .container .navbar-nav li .dropdown-QRCodeMenu .Android_text {
+  padding-top: 10px;
+  color: #1283fc;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 480px;
+}
+
+.swiper-container .login-aside {
+  position: absolute;
+  width: 379px;
+  border-radius: 5px;
+  right: 10%;
+  top: 15%;
+  z-index: 9999;
+  cursor: default;
+}
+
+.swiper-container .login-aside .panel {
+  height: 100%;
+  margin-bottom: 0px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+.swiper-container .login-aside .panel .panel-heading {
+  padding-bottom: 0px;
+}
+
+.swiper-container .login-aside .panel .panel-heading .panel-title {
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Microsoft Yahei,WenQuanYi Micro Hei,Source Han Sans CN;
+}
+
+.swiper-container .login-aside .panel .panel-heading:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.swiper-container .login-aside .panel .btn {
+  background-color: #4c98f7;
+  color: #fff;
+}
+
+.swiper-container .login-aside .panel .panel-body {
+  min-height: 241px;
+  padding-top: 28px;
+  position: relative;
+}
+
+.swiper-container .login-aside .panel .panel-body #err-tip {
+  width: 290px;
+  height: 22px;
+  line-height: 22px;
+  background: #fee;
+  color: #e3111e;
+  font-family: Microsoft Yahei,WenQuanYi Micro Hei,Source Han Sans CN;
+  position: absolute;
+  top: 6px;
+  left: 22px;
+  display: none;
+  z-index: 3;
+}
+
+.swiper-container .login-aside .panel .panel-body #err-tip .icon {
+  float: left;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.swiper-container .login-aside .panel .panel-body #err-tip .errTipContent {
+  float: left;
+}
+
+.swiper-container .login-aside .panel .panel-body .form-group .form-control {
+  height: 38px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.swiper-container .login-aside .panel .panel-body .form-group .col-md-4 {
+  height: 100%;
+}
+
+.swiper-container .login-aside .panel .panel-body .form-group .col-md-4 .btn {
+  height: 37px;
+  border-radius: 5px;
+}
+
+.swiper-container .login-aside .panel .panel-body .form-group .col-md-6 #forgetpass {
+  margin: 10px 0px 10px 0px;
+}
+
+.swiper-container .login-aside .panel .panel-body #VerificationCode {
+  display: none;
+}
+
+.swiper-container .login-aside .panel .panel-body #VerificationCode .getCode .col-md-4,
+.swiper-container .login-aside .panel .panel-body #VerificationCode .getCode .col-sm-4 {
+  padding-right: 0px;
+}
+
+.swiper-container .login-aside .panel .panel-body #VerificationCode .codeBox {
+  display: none;
+}
+
+.swiper-container .login-aside .panel .panel-body #VerificationCode .codeBox #myCanvas {
+  cursor: pointer;
+  width: 100%;
+  max-height: 35px;
+}
+
+.swiper-container .login-aside .panel .panel-body #VerificationCode .codeBox .ion-ios-loop {
+  height: 32px;
+  padding-top: 2px;
+  line-height: 32px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.swiper-container .login-aside .panel .panel-body .submit {
+  margin-top: 38px;
+  position: relative;
+  display: block;
+}
+
+.swiper-container .login-aside .panel .panel-body .submit .btn-block {
+  height: 36px;
+  border-radius: 3px;
+}
+
+.swiper-container .login-aside .panel .panel-body .submit .dropdown-menu {
+  transform: translateX(-60px) translateY(41px);
+}
+
+.swiper-container .arrow-left {
+  background: url(../../lib/plugins/pigcms/images/arrows.png) no-repeat left top;
+  position: absolute;
+  left: 68px;
+  top: 50%;
+  margin-top: -15px;
+  width: 17px;
+  height: 30px;
+  z-index: 10;
+}
+
+.swiper-container .arrow-right {
+  background: url(../../lib/plugins/pigcms/images/arrows.png) no-repeat left bottom;
+  position: absolute;
+  right: 68px;
+  top: 50%;
+  margin-top: -15px;
+  width: 17px;
+  height: 30px;
+  z-index: 10;
+}
+
+.swiper-container .pagination {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom: 5px;
+  width: 100%;
+}
+
+.swiper-container .pagination .swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #999;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.swiper-container .pagination .swiper-active-switch {
+  background: #fff;
+}
+
+.swiper-container .swiper-slide {
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.swiper-container .swiper-slide .title {
+  position: absolute;
+}
+
+.swiper-container .swiper-slide .inner {
+  position: relative;
+  display: block;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.swiper-container .swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-container .slide1 {
+  background-image: url("../../images/index/banner_1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.swiper-container .slide2 {
+  background-image: url("../../images/index/banner_2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.swiper-container .slide3 {
+  background-image: url("../../images/index/banner_3.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.swiper-container .slide1 .s1 {
+  left: 50%;
+  margin-left: -465.5px;
+  top: 281px;
+  font-size: 51px;
+}
+
+.swiper-container .slide1 .s2 {
+  left: 38px;
+  bottom: 0px;
+  z-index: 5;
+  height: 139px;
+  font-size: 32px;
+}
+
+.swiper-container .slide2 .zh-a-1 {
+  left: 253px;
+  top: 50%;
+  z-index: 9;
+  color: #fff;
+  font-size: 32px;
+  margin-top: -18px;
+}
+
+.swiper-container .slide2 .zh-a-2 {
+  font-size: 51px;
+  font-weight: bold;
+  color: #fff;
+  left: 250px;
+  top: 50%;
+  margin-top: -80px;
+}
+
+.swiper-container .slide3 .b-1 {
+  right: 355px;
+  top: 53%;
+  font-size: 51px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-container .slide3 .b-2 {
+  left: 29%;
+  top: 68%;
+  font-size: 32px;
+  color: #fff;
+}
+
+.swiper-container .slide3 .b-s-1 {
+  width: 100px;
+  left: 50px;
+  bottom: 0px;
+}
+
+.swiper-container .slide1 .b-y-1 {
+  top: 40px;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.swiper-container .slide1 .b-y-2 {
+  top: 40px;
+  left: 0;
+}
+
+.swiper-container .slide1 .b-y-3 {
+  top: 40px;
+  right: 0;
+}
+
+.index_personalSpace {
+  background-color: #f0f6ff;
+  padding-top: 90px;
+}
+
+.index_personalSpace .person_space_section {
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+
+.index_personalSpace .person_space_section .person_space_Info {
+  padding-right: 170px;
+}
+
+.index_personalSpace .person_space_section .person_space_Info .person_space_title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.index_personalSpace .person_space_section .person_space_Info .person_space_title .icon_symbol {
+  font-size: 27px;
+  padding: 0 12px;
+  font-weight: bold;
+}
+
+.index_personalSpace .person_space_section .person_space_Info .list-group {
+  margin-bottom: 10px;
+}
+
+.index_personalSpace .person_space_section .person_space_Info .list-group .list-group-item {
+  position: relative;
+  border: 0px;
+  padding-right: 0px;
+  padding-left: 30px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.index_personalSpace .person_space_section .person_space_Info .list-group .list-group-item .person_space_text {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+  color: #666;
+}
+
+.index_personalSpace .person_space_section .person_space_Info .list-group .list-group-item .icon_img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/index/ico-dui.png);
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.index_personalSpace .person_space_section .person_space_Info .person_space_line {
+  border: 1px solid #e5e5e5;
+}
+
+.index_personalSpace .person_space_section .person_space_Info .person_space_btn {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.index_personalSpace .person_space_section .person_space_Info .person_space_btn .person_space_Ed_Bu,
+.index_personalSpace .person_space_section .person_space_Info .person_space_btn .person_space_tec,
+.index_personalSpace .person_space_section .person_space_Info .person_space_btn .person_space_sch,
+.index_personalSpace .person_space_section .person_space_Info .person_space_btn .person_space_stu {
+  width: 107px;
+  height: 37px;
+  float: left;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+  background-image: url(../../images/index/bg-mokuai.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_personalSpace .person_space_section .person_space_Info .person_space_btn .person_space_Ed_Bu,
+.index_personalSpace .person_space_section .person_space_Info .person_space_btn .person_space_tec,
+.index_personalSpace .person_space_section .person_space_Info .person_space_btn .person_space_sch {
+  margin-right: 10px;
+}
+
+.index_personalSpace .person_space_section .person_space_Img {
+  padding-top: 17px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.index_personalSpace .person_space_section .person_space_Img .thumbnail-img {
+  position: relative;
+}
+
+.index_personalSpace .person_space_section .person_space_Img .thumbnail-img img {
+  position: relative;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.index_personalSpace .person_space_section .person_space_Img .thumbnail-img img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.index_cooperativeOffice {
+  background-color: #fff;
+  padding-top: 90px;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section {
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Img {
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Img .thumbnail-img {
+  position: relative;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Img .thumbnail-img img {
+  position: relative;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Img .thumbnail-img img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info {
+  padding-left: 170px;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .index_cooperativeOffice_title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .list-group {
+  margin-bottom: 10px;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .list-group .list-group-item {
+  position: relative;
+  border: 0px;
+  padding-right: 0px;
+  padding-left: 30px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .list-group .list-group-item .cooperativeOffice_text {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+  color: #666;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .list-group .list-group-item .icon_img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/index/ico-dui.png);
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_line {
+  border: 1px solid #e5e5e5;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_pro_man,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_task_man,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_bumph_man,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_conf_man,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_doc_man,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_addr_Book,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_note_gro_send {
+  width: 107px;
+  height: 37px;
+  float: left;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+  background-image: url(../../images/index/bg-mokuai.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_pro_man,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_task_man,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_bumph_man,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_conf_man,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_doc_man,
+.index_cooperativeOffice .index_cooperativeOffice_section .index_cooperativeOffice_Info .cooperativeOffice_btn .cooperativeOffice_addr_Book {
+  margin-right: 10px;
+}
+
+.index_SchoolAffairsManage {
+  background-color: #f0f6ff;
+  padding-top: 90px;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section {
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info {
+  padding-right: 170px;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .list-group {
+  margin-bottom: 10px;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .list-group .list-group-item {
+  position: relative;
+  border: 0px;
+  padding-right: 0px;
+  padding-left: 30px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .list-group .list-group-item .SchoolAffairsManage_text {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+  color: #666;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .list-group .list-group-item .icon_img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/index/ico-dui.png);
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_line {
+  border: 1px solid #e5e5e5;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_Msg,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_sch,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_per,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_salary,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_attendance,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_contract,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_partyWork,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_laborUnion,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_activity,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_record {
+  width: 107px;
+  height: 37px;
+  float: left;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+  background-image: url(../../images/index/bg-mokuai.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_Msg,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_sch,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_per,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_salary,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_attendance,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_contract,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_partyWork,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_laborUnion,
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .SchoolAffairsManage_Info .SchoolAffairsManage_btn .SchoolAffairsManage_activity {
+  margin-right: 10px;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .index_SchoolAffairsManage_Img {
+  padding-top: 17px;
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow: hidden;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .index_SchoolAffairsManage_Img .thumbnail-img {
+  position: relative;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .index_SchoolAffairsManage_Img .thumbnail-img img {
+  position: relative;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.index_SchoolAffairsManage .index_SchoolAffairsManage_section .index_SchoolAffairsManage_Img .thumbnail-img img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.index_educational_admin {
+  background-color: #fff;
+  padding-top: 90px;
+}
+
+.index_educational_admin .index_educational_admin_Img {
+  padding-top: 58px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.index_educational_admin .index_educational_admin_Img .thumbnail-img {
+  position: relative;
+}
+
+.index_educational_admin .index_educational_admin_Img .thumbnail-img img {
+  position: relative;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.index_educational_admin .index_educational_admin_Img .thumbnail-img img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.index_educational_admin .index_educational_admin_Info {
+  padding-left: 170px;
+}
+
+.index_educational_admin .index_educational_admin_Info .index_educational_admin_title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.index_educational_admin .index_educational_admin_Info .list-group {
+  margin-bottom: 10px;
+}
+
+.index_educational_admin .index_educational_admin_Info .list-group .list-group-item {
+  position: relative;
+  border: 0px;
+  padding-right: 0px;
+  padding-left: 30px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.index_educational_admin .index_educational_admin_Info .list-group .list-group-item .educational_admin_text {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+  color: #666;
+}
+
+.index_educational_admin .index_educational_admin_Info .list-group .list-group-item .icon_img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/index/ico-dui.png);
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.index_educational_admin .index_educational_admin_Info .educational_admin_line {
+  border: 1px solid #e5e5e5;
+}
+
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_minor_Cou,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_walking_Cou,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_divide_Cla,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_cour_arra,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_Marking,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_Cour,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_tech_mate,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_The_substitute,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_library {
+  width: 107px;
+  height: 37px;
+  float: left;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+  background-image: url(../../images/index/bg-mokuai.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_minor_Cou,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_walking_Cou,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_divide_Cla,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_cour_arra,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_Marking,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_Cour,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_tech_mate,
+.index_educational_admin .index_educational_admin_Info .educational_admin_btn .educational_admin_The_substitute {
+  margin-right: 10px;
+}
+
+.index_Teacher_dev {
+  background-color: #f0f6ff;
+  padding-top: 90px;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section {
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info {
+  padding-right: 170px;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .index_Teacher_dev_title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .list-group {
+  margin-bottom: 10px;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .list-group .list-group-item {
+  position: relative;
+  border: 0px;
+  padding-right: 0px;
+  padding-left: 30px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .list-group .list-group-item .index_Teacher_dev_text {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+  color: #666;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .list-group .list-group-item .icon_img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/index/ico-dui.png);
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_line {
+  border: 1px solid #e5e5e5;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_tac_rese,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_scie_rese,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_cult,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_mentor_tac,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_tec_record,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_tec_assess,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_plan {
+  width: 107px;
+  height: 37px;
+  float: left;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+  background-image: url(../../images/index/bg-mokuai.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_tac_rese,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_scie_rese,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_cult,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_mentor_tac,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_tec_record,
+.index_Teacher_dev .index_Teacher_dev_section .index_Teacher_dev_Info .Teacher_dev_btn .Teacher_dev_tec_assess {
+  margin-right: 10px;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .Teacher_dev_Img {
+  box-sizing: border-box;
+  padding-top: 42px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .Teacher_dev_Img .thumbnail-img {
+  position: relative;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .Teacher_dev_Img .thumbnail-img img {
+  position: relative;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.index_Teacher_dev .index_Teacher_dev_section .Teacher_dev_Img .thumbnail-img img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.index_student_Growth {
+  background-color: #fff;
+  padding-top: 90px;
+}
+
+.index_student_Growth .index_student_Growth_section {
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Img {
+  box-sizing: border-box;
+  padding-top: 73px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Img .thumbnail-img {
+  position: relative;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Img .thumbnail-img img {
+  position: relative;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Img .thumbnail-img img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info {
+  padding-left: 170px;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .index_student_Growth_title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .list-group {
+  margin-bottom: 10px;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .list-group .list-group-item {
+  position: relative;
+  border: 0px;
+  padding-right: 0px;
+  padding-left: 30px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .list-group .list-group-item .student_Growth_text {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+  color: #666;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .list-group .list-group-item .icon_img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/index/ico-dui.png);
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_line {
+  border: 1px solid #e5e5e5;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_recruit,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_class,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_stu_roll,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_reasonstr,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_dormitory,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_club,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_active,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_production,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_Growth_record,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_Inte_qual_eval,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_rewardsANdPunishment,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_learning_management,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_Subsidy_management,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_career_planning,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_graduate_management {
+  width: 107px;
+  height: 37px;
+  float: left;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+  background-image: url(../../images/index/bg-mokuai.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_recruit,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_class,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_stu_roll,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_reasonstr,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_dormitory,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_club,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_active,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_Inte_qual_eval,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_Growth_record,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .student_Growth_production,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_rewardsANdPunishment,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_learning_management,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_Subsidy_management,
+.index_student_Growth .index_student_Growth_section .index_student_Growth_Info .student_Growth_btn .stu_career_planning {
+  margin-right: 10px;
+}
+
+.index_homeAndSchool_Unimpeded {
+  background-color: #f0f6ff;
+  padding-top: 90px;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section {
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info {
+  padding-right: 170px;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info .index_homeAndSchool_Unimpeded_title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info .list-group {
+  margin-bottom: 10px;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info .list-group .list-group-item {
+  position: relative;
+  border: 0px;
+  padding-right: 0px;
+  padding-left: 30px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info .list-group .list-group-item .homeAndSchool_Unimpeded_text {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+  color: #666;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info .list-group .list-group-item .icon_img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/index/ico-dui.png);
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info .homeAndSchool_Unimpeded_line {
+  border: 1px solid #e5e5e5;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info .homeAndSchool_Unimpeded_btn {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info .homeAndSchool_Unimpeded_btn .homeAndSchool_Unimpeded_Item,
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info .homeAndSchool_Unimpeded_btn .homeAndSchool_Unimpeded_last_Item {
+  width: 107px;
+  height: 37px;
+  float: left;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+  background-image: url(../../images/index/bg-mokuai.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .index_homeAndSchool_Unimpeded_Info .homeAndSchool_Unimpeded_btn .homeAndSchool_Unimpeded_Item {
+  margin-right: 10px;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .homeAndSchool_Unimpeded_Img {
+  box-sizing: border-box;
+  padding-top: 42px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .homeAndSchool_Unimpeded_Img .thumbnail-img {
+  position: relative;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .homeAndSchool_Unimpeded_Img .thumbnail-img img {
+  position: relative;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.index_homeAndSchool_Unimpeded .index_homeAndSchool_Unimpeded_section .homeAndSchool_Unimpeded_Img .thumbnail-img img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.index_logistics_manage {
+  background-color: #fff;
+  padding-top: 90px;
+}
+
+.index_logistics_manage .index_logistics_manage_section {
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Img {
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Img .thumbnail-img {
+  position: relative;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Img .thumbnail-img img {
+  position: relative;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Img .thumbnail-img img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info {
+  padding-left: 170px;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info .index_logistics_manage_title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info .list-group {
+  margin-bottom: 10px;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info .list-group .list-group-item {
+  position: relative;
+  border: 0px;
+  padding-right: 0px;
+  padding-left: 30px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info .list-group .list-group-item .logistics_manage_text {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+  color: #666;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info .list-group .list-group-item .icon_img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/index/ico-dui.png);
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info .logistics_manage_line {
+  border: 1px solid #e5e5e5;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info .logistics_manage_btn {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info .logistics_manage_btn .logistics_manage_Item,
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info .logistics_manage_btn .logistics_manage_last_Item {
+  width: 107px;
+  height: 37px;
+  float: left;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+  background-image: url(../../images/index/bg-mokuai.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_logistics_manage .index_logistics_manage_section .index_logistics_manage_Info .logistics_manage_btn .logistics_manage_Item {
+  margin-right: 10px;
+}
+
+.index_basic_setting {
+  background-color: #f0f6ff;
+  padding-top: 90px;
+}
+
+.index_basic_setting .index_basic_setting_section {
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info {
+  padding-right: 170px;
+}
+
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info .index_basic_setting_title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info .list-group {
+  margin-bottom: 10px;
+}
+
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info .list-group .list-group-item {
+  position: relative;
+  border: 0px;
+  padding-right: 0px;
+  padding-left: 30px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info .list-group .list-group-item .index_basic_setting_text {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+  color: #666;
+}
+
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info .list-group .list-group-item .icon_img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/index/ico-dui.png);
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info .basic_setting_line {
+  border: 1px solid #e5e5e5;
+}
+
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info .basic_setting_btn {
+  list-style: none;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info .basic_setting_btn .basic_setting_Item,
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info .basic_setting_btn .basic_setting_last_Item {
+  width: 107px;
+  height: 37px;
+  float: left;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+  background-image: url(../../images/index/bg-mokuai.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_basic_setting .index_basic_setting_section .index_basic_setting_Info .basic_setting_btn .basic_setting_Item {
+  margin-right: 10px;
+}
+
+.index_basic_setting .index_basic_setting_section .basic_setting_Img {
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.index_basic_setting .index_basic_setting_section .basic_setting_Img .thumbnail-img {
+  position: relative;
+}
+
+.index_basic_setting .index_basic_setting_section .basic_setting_Img .thumbnail-img img {
+  position: relative;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.index_basic_setting .index_basic_setting_section .basic_setting_Img .thumbnail-img img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url("iconfont.eot?t=1527662728081");
+  /* IE9*/
+  src: url("iconfont.eot?t=1527662728081#iefix") format("embedded-opentype"), url("data:application/x-font-woff;charset=utf-8;base64,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") format("woff"), url("iconfont.ttf?t=1527662728081") format("truetype"), url("iconfont.svg?t=1527662728081#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dizhi:before {
+  content: "\e60d";
+}
+
+.icon-dianhua:before {
+  content: "\e671";
+}
+
+.icon-youxiang:before {
+  content: "\e641";
+  position: relative !important;
+  top: 2px !important;
+  font-size: 20px !important;
+}
+
+.footer {
+  padding: 29px 0 29px 0;
+  line-height: 33px;
+  text-align: center;
+  font-size: 14px !important;
+  background-color: #333;
+  color: #999;
+  vertical-align: bottom;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.footer p {
+  margin-bottom: 0px !important;
+}
+
+.footer .services a {
+  color: #999;
+  margin-right: 40px;
+}
+
+.footer .services a:hover {
+  text-decoration: none !important;
+}
+
+.footer .services a:before {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+/* 暂时先用之前的底部 这个注释掉，留作备用 */
+/* .footer {
+  background-color: #333; 
+  padding:20px 0;
+  height: 130px;
+}
+.footer .container {
+  display: flex; 
+  align-items: center;
+  justify-content:space-between;
+}
+.footer .footer_left {
+  float: left;
+  width: 53%;
+  color: #999;
+}
+
+.footer .footer_left .project{
+  display: flex;
+  list-style: none;
+  padding:0;
+}
+.footer .footer_right {
+  float: right;
+  width: 40%;
+  color: #999;
+  display: flex;
+  justify-content:flex-end;
+}
+.footer .footer_right .addres_left p{
+  color: #999;
+}
+.footer .footer_right .qrCode{
+  margin-left:20px;
+}
+.footer .footer_right .qrCode img{
+  width:70px;
+  height:70px;
+} */
+.loop {
+  animation-iteration-count: infinite;
+  /*无限*/
+  animation-timing-function: linear;
+  /*平滑*/
+}
+
+/*自定义CSS动画*/
+.moveRight {
+  -webkit-animation-name: moveRight;
+  animation-name: moveRight;
+}
+
+@-webkit-keyframes moveRight {
+  0% {
+    opacity: 0;
+    left: 0px;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    left: 550px;
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    left: 0px;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    left: 550px;
+  }
+}
+
+.moveLeft {
+  -webkit-animation-name: moveLeft;
+  animation-name: moveLeft;
+}
+
+@-webkit-keyframes moveLeft {
+  0% {
+    opacity: 0;
+    left: 390px;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    left: -370px;
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    left: 390px;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    left: -370px;
+  }
+}
+
+/* ===回到顶部按钮重置=== */
+.scroll-top.in {
+  background-color: #367bd6;
+  color: #fff;
+  width: 40px;
+  height: 36px;
+  border-radius: 2px;
+  padding: 0;
+  bottom: 34px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.15);
+}
+.scroll-top.in > i {
+  margin: 0 auto;
+}
+.pci-hor-dots:before,
+.pci-ver-dots:before {
+  content: '';
+  height: .27em;
+  width: .27em;
+  background-color: #758697;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: .25em;
+  box-shadow: 0 0.45em 0 #758697, 0 0.9em 0 #758697;
+}
+.pci-hor-dots {
+  transform: rotate(90deg);
+}
+.pci-cross:after,
+.pci-cross:before {
+  content: '';
+  box-shadow: inset 0 0 0 1px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.pci-cross:after {
+  height: .8em;
+  width: 2px;
+}
+.pci-cross:before {
+  width: .78em;
+  height: 2px;
+}
+.pci-cross {
+  display: block;
+  border: 1px solid;
+  width: 1.3em;
+  height: 1.3em;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.pci-circle {
+  border-radius: 50%;
+}
+.pci-chevron:before {
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: '';
+  display: inline-block;
+  height: 0.75em;
+  position: relative;
+  top: 0;
+  left: 0;
+  vertical-align: middle;
+  width: 0.75em;
+}
+.pci-chevron.chevron-up:before {
+  transform: rotate(-45deg);
+}
+.pci-chevron.chevron-right:before {
+  transform: rotate(45deg);
+}
+.pci-chevron.chevron-down:before {
+  top: -0.5em;
+  transform: rotate(135deg);
+}
+.pci-chevron.chevron-left:before {
+  transform: rotate(-135deg);
+}
+.scroll-top.in:hover {
+  opacity: 1;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transform: scale(1.1);
+  transition: all .15s;
+}
