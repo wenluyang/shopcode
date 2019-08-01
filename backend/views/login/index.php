@@ -44,10 +44,7 @@
                 <h3 class="panel-title">用户登录</h3>
             </div>
             <div class="panel-body">
-                <div id="err-tip">
-                    <span class="ion-ios-information-outline icon"></span>
-                    <p class="errTipContent">用户名不存在，请重新输入</p>
-                </div>
+
                 <div class="form-group">
                     <div class="input-group mar-btm">
                             <span class="input-group-addon">
@@ -66,26 +63,7 @@
                                placeholder="请输入密码">
                     </div>
                 </div>
-                <div class="form-group" id="VerificationCode">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <input type="text" id="J_codetext" class="form-control" placeholder="请输入验证码"
-                                   aria-describedby="basic-addon1">
-                        </div>
-                        <div class="getCode">
-                            <div class="col-md-2 col-sm-2"></div>
-                            <div class="col-md-4 col-sm-4">
-                                <button class="btn btn-warning btn-block">获取验证码</button>
-                            </div>
-                        </div>
-                        <div class="codeBox">
-                            <div class="col-md-4 col-sm-4">
-                                <canvas id="myCanvas" onclick="createCode()">对不起，您的浏览器不支持canvas，请下载最新版浏览器!</canvas>
-                            </div>
-                            <div class="col-md-2 col-sm-4 ion-ios-loop" onclick="javescript: createCode()"></div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="from-group">
                     <div class="row clearfix">
                         <div class="col-md-6 col-sm-6">
@@ -133,8 +111,9 @@
 </div>
 
 <!-- 版权所有 END -->
-
 <script src="./lib/plugins/jquery/dist/jquery-1.8.0.min.js"></script>
+<script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
 <script src="./lib/plugins/jquery/dist/jquery.min.js"></script>
 <script src="./lib/plugins/Aos/aos.js"></script>

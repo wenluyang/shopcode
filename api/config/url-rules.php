@@ -1,15 +1,17 @@
 <?php
 
 
-
 $urlRuleConfigs = [
     [
-        'controller' => ['admin/admin'],
+        'controller' => ['admin/admin','admin/role'],
         'extraPatterns' => [
-            'POST login' => 'login',
-            'POST add' => 'add',
-            'POST edit' => 'edit',
-            'POST delete' => 'delete',
+            'POST,OPTIONS login' => 'login',
+            'POST,OPTIONS add' => 'add',
+            'POST,OPTIONS edit' => 'edit',
+            'POST,OPTIONS remove' => 'remove',
+            'POST,OPTIONS list' => 'list',
+            'GET,OPTIONS getone' => 'getone',
+            'GET,OPTIONS getselectlist' => 'getselectlist',
 
         ],
     ],

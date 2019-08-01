@@ -13,6 +13,21 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'api\controllers',
     'components' => [
+
+        'response' => [
+            'class' => 'yii\web\Response',
+            'on beforeSend' => function ($event) {
+                $response = $event->sender;
+                $response->format = yii\web\Response::FORMAT_JSON;
+            },
+        ],
+
+        'request' => [
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+                'text/json' => 'yii\web\JsonParser',
+            ],
+        ],
         'user' => [
             'identityClass' => 'common\models\Admin',
             'enableAutoLogin' => true,

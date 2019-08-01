@@ -99,4 +99,41 @@ class Admin extends \yii\db\ActiveRecord implements IdentityInterface
             return $timestamp + $expire >= time();
         }
     }
+
+
+    /**
+     * 三表联查
+     * @return \yii\db\ActiveQuery
+     * @throws \yii\base\InvalidConfigException
+     */
+    public function getRole()
+    {
+        return $this->hasOne(Role::className(), ['id' => 'role_id'])
+            ->viaTable(AdminRole::tableName(), ['uid' => 'id']);
+    }
+
+
+    /**
+     * 删除数组中的某一个值 用于批量删除中去掉超级管理员admin的ID=1
+     * @param $arr
+     * @param $value
+     * @return array
+     */
+
+    public static function deleteByValueToArray($arr, $value){
+        if(!is_array($arr)){
+            return $arr;
+        }
+        foreach($arr as $k=>$v){
+            if($v == $value){
+                unset($arr[$k]);
+            }
+        }
+        return $arr;
+    }
+
+
+
+
+
 }
